@@ -1,4 +1,3 @@
 [build]
-  base    = "src"
-  publish = "dist/netlify-test"
-  command = "npm run build"
+  command = "npm run build:prod"
+  publish = "dist"
